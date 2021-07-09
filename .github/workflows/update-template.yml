@@ -16,8 +16,17 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Create project (release)
+      - name: Create project (stable)
         run: |
           rm ./nuxt.config.js
           npx @shopware-pwa/cli@latest init --ci
-          ls -l
+          rm ./shopware-pwa.config.js
+          rm ./yarn.lock
+      - name: Commit files
+        run: |
+          git commit -m "chore: generate project template" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: test-branch
