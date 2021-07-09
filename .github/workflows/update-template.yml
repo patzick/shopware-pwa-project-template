@@ -16,6 +16,9 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
       - name: Create project (stable)
         run: |
           rm ./nuxt.config.js
@@ -24,6 +27,8 @@ jobs:
           rm ./yarn.lock
       - name: Commit files
         run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git commit -m "chore: generate project template" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
