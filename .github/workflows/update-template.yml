@@ -9,15 +9,15 @@ jobs:
     name: Invoke update
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
       - name: Setup node
         uses: actions/setup-node@v2
         with:
           node-version: "14"
           registry-url: https://registry.npmjs.org/
-      - name: Update template
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Create project (release)
         run: |
           rm ./nuxt.config.js
-          npx @shopware-pwa/cli init --ci
-          git diff
+          npx @shopware-pwa/cli@latest init --ci
+          ls -l
