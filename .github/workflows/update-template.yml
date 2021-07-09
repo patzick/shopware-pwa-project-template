@@ -17,6 +17,8 @@ jobs:
           node-version: "14"
       - name: Update template
         run: |
+          ls -l
           rm ./nuxt.config.js
+          ls -l
           npx @shopware-pwa/cli init --ci
           git diff
