@@ -339,7 +339,7 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-logical-assignment-operators" "^7.10.4"
 
-"@babel/plugin-proposal-nullish-coalescing-operator@^7.13.8", "@babel/plugin-proposal-nullish-coalescing-operator@^7.14.5", "@babel/plugin-proposal-nullish-coalescing-operator@^7.16.0":
+"@babel/plugin-proposal-nullish-coalescing-operator@^7.13.8", "@babel/plugin-proposal-nullish-coalescing-operator@^7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-nullish-coalescing-operator/-/plugin-proposal-nullish-coalescing-operator-7.16.0.tgz#44e1cce08fe2427482cf446a91bb451528ed0596"
   integrity sha512-3bnHA8CAFm7cG93v8loghDYyQ8r97Qydf63BeYiGgYbjKKB/XP53W15wfRC7dvKfoiJ34f6Rbyyx2btExc8XsQ==
@@ -374,7 +374,7 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-optional-catch-binding" "^7.8.3"
 
-"@babel/plugin-proposal-optional-chaining@^7.13.12", "@babel/plugin-proposal-optional-chaining@^7.14.5", "@babel/plugin-proposal-optional-chaining@^7.16.0":
+"@babel/plugin-proposal-optional-chaining@^7.13.12", "@babel/plugin-proposal-optional-chaining@^7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-optional-chaining/-/plugin-proposal-optional-chaining-7.16.0.tgz#56dbc3970825683608e9efb55ea82c2a2d6c8dc0"
   integrity sha512-Y4rFpkZODfHrVo70Uaj6cC1JJOt3Pp0MdWSwIKtb8z1/lsjl9AmnB7ErRFV+QNGIfcY1Eruc2UMx5KaRnXjMyg==
@@ -1593,12 +1593,12 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@shopware-pwa/cli@1.0.0-RC.3":
-  version "1.0.0-RC.3"
-  resolved "https://registry.yarnpkg.com/@shopware-pwa/cli/-/cli-1.0.0-RC.3.tgz#df675a065a0b14303c2f9a05d565f42f4c7843b8"
-  integrity sha512-Zzo5RmGwyMI5H1W5+/i6Xt1iabMvsMyIEh9tegLhHi00BTGeqEf4jJ6Ig4tx0saKjnM0/PtawBJPbBHP1Cpfiw==
+"@shopware-pwa/cli@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@shopware-pwa/cli/-/cli-1.0.0.tgz#1564424f372a72ecbf907cc48558c6df45350101"
+  integrity sha512-3A1i20kIRAyn3+8GaTBaY53/mhn9DZ6TkRbzz8F+2WQ+UV9ZIzTWqiUkfyIiLSoAsTWoIgQfqF3BjFKZw7fNpg==
   dependencies:
-    "@shopware-pwa/shopware-6-client" "1.0.0-RC.3"
+    "@shopware-pwa/shopware-6-client" "1.0.0"
     chokidar "^3.5.2"
     dotenv "^10.0.0"
     gluegun "^4.7.0"
@@ -1607,85 +1607,85 @@
     unzipper "^0.10.11"
     validate-npm-package-name "^3.0.0"
 
-"@shopware-pwa/composables@1.0.0-RC.3":
-  version "1.0.0-RC.3"
-  resolved "https://registry.yarnpkg.com/@shopware-pwa/composables/-/composables-1.0.0-RC.3.tgz#79ef7e973b427da8cfe0b3c47fa3836f88d072e3"
-  integrity sha512-qrcuR4Tbx2YXEiLG/drH+RvvTSndML0dmsweOIknYv4NegfOyKoUo+FXKrht6BcxkVznSnE21Ca/8GaVPmHg1Q==
+"@shopware-pwa/composables@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@shopware-pwa/composables/-/composables-1.0.0.tgz#3513405afe59e02cc1ee124c13c89d60cdb79cc6"
+  integrity sha512-CUqRCdf/INphSUFKi7pdBmL6kyu2nZDvXprkJoGpwkoELhql3LvOiV+6MD64k9XonLtZzQ7Wu9PFV2p55qfw7Q==
   dependencies:
-    "@shopware-pwa/helpers" "1.0.0-RC.3"
-    "@shopware-pwa/shopware-6-client" "1.0.0-RC.3"
+    "@shopware-pwa/helpers" "1.0.0"
+    "@shopware-pwa/shopware-6-client" "1.0.0"
     "@vue/devtools-api" "^6.0.0-beta.19"
-    axios "^0.21.4"
+    axios "^0.24.0"
     cookie-universal "^2.1.5"
     lodash "^4.17.21"
     query-string "^7.0.1"
-    vue-demi "^0.11.4"
+    vue-demi "^0.12.0"
 
-"@shopware-pwa/default-theme@1.0.0-RC.3":
-  version "1.0.0-RC.3"
-  resolved "https://registry.yarnpkg.com/@shopware-pwa/default-theme/-/default-theme-1.0.0-RC.3.tgz#557aec305d2ca8c7a6c3dd070c1687872fdc94a9"
-  integrity sha512-nm6Pe8fG/ommTCIKMJu77szRKzbuhq0cmA7qH8UZUTNWTf0RckmqPyTnMHkqskK2U9S2+jyow1ajKI1HuqI5lA==
+"@shopware-pwa/default-theme@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@shopware-pwa/default-theme/-/default-theme-1.0.0.tgz#d0198a8c9f084e74714ecb8b4214b58c54e35473"
+  integrity sha512-LI3cdByT1cBtF0s4oUo4rD2ZfGjEOS4bgEAkI7fWeyQvZ543Tl6Y6guKmBahsd0aKC6lYGk+74CMO8xi2MIBjA==
   dependencies:
-    "@shopware-pwa/theme-base" "1.0.0-RC.3"
+    "@shopware-pwa/theme-base" "1.0.0"
     "@storefront-ui/vue" "0.10.5"
-    "@vuelidate/core" "^2.0.0-alpha.26"
-    "@vuelidate/validators" "^2.0.0-alpha.22"
+    "@vuelidate/core" "^2.0.0-alpha.32"
+    "@vuelidate/validators" "^2.0.0-alpha.25"
     dayjs "^1.10.7"
     html-to-vue "^1.4.0"
     node-sass "^6.0.1"
     sass-loader "^10.0.3"
-    vue-i18n "^8.25.1"
+    vue-i18n "^8.26.5"
 
-"@shopware-pwa/helpers@1.0.0-RC.3":
-  version "1.0.0-RC.3"
-  resolved "https://registry.yarnpkg.com/@shopware-pwa/helpers/-/helpers-1.0.0-RC.3.tgz#c23ac18e4d4e55608a80b177e42169ce31f9150d"
-  integrity sha512-KOb633O/NOhhl+sILJ5ynPvE7sN5GCJ+0ZZFkpXDTinEaLe3Z23tj5bYx36GyhCV1Fy3kXILvWdz660q/pmpZQ==
+"@shopware-pwa/helpers@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@shopware-pwa/helpers/-/helpers-1.0.0.tgz#27b6ed67c1b0cb7ee6388545ff1b232f5580b11e"
+  integrity sha512-vXtiP5mB9kSx9DttWQkDPDVS3JLvomyvzeZNfh88gR9oeSCzMQBTtghx9gzyFGQwzK2k5OSnQU8fePErZqogAQ==
   dependencies:
     query-string "^7.0.1"
 
-"@shopware-pwa/nuxt-module@^1.0.0-RC.3":
-  version "1.0.0-RC.3"
-  resolved "https://registry.yarnpkg.com/@shopware-pwa/nuxt-module/-/nuxt-module-1.0.0-RC.3.tgz#d490c3d0cd43687fcdbadbe74c63649f85df9f18"
-  integrity sha512-3LLehgbAnKC6VH6qor5nbTXRXmFVt5cewt1FxWZROPiV2F3ZUNcYDAob2bt0vKL2JbZe8gsej8jdxhgeV+XDyA==
+"@shopware-pwa/nuxt-module@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@shopware-pwa/nuxt-module/-/nuxt-module-1.0.0.tgz#3b234191a65b7b6d3a18090cd106ee6304f46307"
+  integrity sha512-bj69B3EfZGxOTarXXNTKSuFxoPPnCWWuws0c9Dm4p+8NcocJ35iUIVd3h9txaS85wAl1EMROgIlzOJk4i5ncHA==
   dependencies:
-    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.14.5"
-    "@babel/plugin-proposal-optional-chaining" "^7.14.5"
+    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.16.0"
+    "@babel/plugin-proposal-optional-chaining" "^7.16.0"
     "@nuxt/types" "^2.15.8"
     "@nuxt/typescript-build" "^2.1.0"
     "@nuxt/typescript-runtime" "^2.1.0"
     "@nuxt/utils" "^2.15.8"
-    "@shopware-pwa/cli" "1.0.0-RC.3"
-    "@shopware-pwa/composables" "1.0.0-RC.3"
-    "@shopware-pwa/default-theme" "1.0.0-RC.3"
-    "@shopware-pwa/helpers" "1.0.0-RC.3"
-    "@shopware-pwa/shopware-6-client" "1.0.0-RC.3"
+    "@shopware-pwa/cli" "1.0.0"
+    "@shopware-pwa/composables" "1.0.0"
+    "@shopware-pwa/default-theme" "1.0.0"
+    "@shopware-pwa/helpers" "1.0.0"
+    "@shopware-pwa/shopware-6-client" "1.0.0"
     chokidar "^3.5.2"
     cookie-universal "^2.1.5"
     cosmiconfig "^7.0.1"
     fs-extra "^10.0.0"
-    fs-jetpack "^4.1.1"
+    fs-jetpack "^4.2.0"
     he "^1.2.0"
     lodash "^4.17.21"
     path "^0.12.7"
     vue-loader "^15.9.8"
     vue-meta "^2.4.0"
-    vue-router "^3.5.2"
+    vue-router "^3.5.3"
     vue-server-renderer "^2.6.14"
     vue-template-compiler "^2.6.14"
 
-"@shopware-pwa/shopware-6-client@1.0.0-RC.3":
-  version "1.0.0-RC.3"
-  resolved "https://registry.yarnpkg.com/@shopware-pwa/shopware-6-client/-/shopware-6-client-1.0.0-RC.3.tgz#8337ca39a12482ab6ae02b829f4424684d2e14b9"
-  integrity sha512-aimK8ydBhDkadberJ+tkt0UebaCs1cx53UYcavMEsyW4AUSRaZkyMC9e7lDEYk40V80i1yOH7Ts/BtvWCPelSg==
+"@shopware-pwa/shopware-6-client@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@shopware-pwa/shopware-6-client/-/shopware-6-client-1.0.0.tgz#4657184c728f9bcb3a6e6920d67f62c4993ea650"
+  integrity sha512-PtqVkO/8FbZueeNkDuM9gdlCFD4TLt2mGAGV4qu8WWyWWMO1MrtCKnQYRSiyreAjLswHNu86Wb6i4z4Z5NM+oQ==
   dependencies:
-    axios "^0.21.4"
+    axios "^0.24.0"
     lodash "^4.17.21"
     query-string "^7.0.1"
 
-"@shopware-pwa/theme-base@1.0.0-RC.3":
-  version "1.0.0-RC.3"
-  resolved "https://registry.yarnpkg.com/@shopware-pwa/theme-base/-/theme-base-1.0.0-RC.3.tgz#f86da298e9935111bf6a41132a379f849818bfeb"
-  integrity sha512-OAT6z3tK+iBfUCQikNKpYtjsrokG4Ubuc0TEQDXch8YDDJsq9pw1l5LffYaWzlPJgO3kGpFEye5nWl+iDsu1Sg==
+"@shopware-pwa/theme-base@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@shopware-pwa/theme-base/-/theme-base-1.0.0.tgz#328a55bed43c58929b3c9d5eedae9d6d894a3d9a"
+  integrity sha512-CzP2BEyhV7c5GBpQ359G2vc9nXT/vZhDl7PEDCI7NHGBxSZnT1Qph+MWQyG8fUjAdECKYmt2zA9vSG8cS6tSbg==
   dependencies:
     currency.js "^2.0.4"
 
@@ -2240,7 +2240,7 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
-"@vue/composition-api@^1.2.1":
+"@vue/composition-api@^1.3.1":
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-1.3.3.tgz#a782f2d40e41d4cbb6b4550692c7e01d2182d457"
   integrity sha512-mjhfLjpCBecARYVJX65F0TYerlJQWtEgKjom4Btuu0x7k701EcvL66zyWQryf64HuIj9YR4h6aNRhM0AP/E3eQ==
@@ -2261,14 +2261,14 @@
     lodash "^4.17.15"
     pretty "^2.0.0"
 
-"@vuelidate/core@^2.0.0-alpha.26":
+"@vuelidate/core@^2.0.0-alpha.32":
   version "2.0.0-alpha.32"
   resolved "https://registry.yarnpkg.com/@vuelidate/core/-/core-2.0.0-alpha.32.tgz#1ad6f4e6480a3fa061d5c0fe3d26f7c7b23e55dd"
   integrity sha512-bB5YJzorKZyRm+R4d3svGChwpHjPw+ECOLwlKfvKJIuyC+y25Wf7NGbr/9odZggoGTi/rKPUYXhpbp5RXb4ssw==
   dependencies:
     vue-demi "^0.12.0"
 
-"@vuelidate/validators@^2.0.0-alpha.22":
+"@vuelidate/validators@^2.0.0-alpha.25":
   version "2.0.0-alpha.25"
   resolved "https://registry.yarnpkg.com/@vuelidate/validators/-/validators-2.0.0-alpha.25.tgz#c58aede525772f1ae120b308de08cd5196ba0cb3"
   integrity sha512-+Cz9itIlPbloXE8hWmTWCS/EXYdgZ0y/mH76v9Ou0ILirVUjErTtgEx/jCfkijbFJAttBTdwJmxaWakwQuA0qA==
@@ -2786,6 +2786,13 @@ axios@^0.21.1, axios@^0.21.4:
   dependencies:
     follow-redirects "^1.14.0"
 
+axios@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.24.0.tgz#804e6fa1e4b9c5288501dd9dff56a7a0940d20d6"
+  integrity sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==
+  dependencies:
+    follow-redirects "^1.14.4"
+
 babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -2800,7 +2807,7 @@ babel-core@7.0.0-bridge.0:
   resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-7.0.0-bridge.0.tgz#95a492ddd90f9b4e9a4a1da14eb335b87b634ece"
   integrity sha512-poPX9mZH/5CSanm50Q+1toVci6pv5KSRv/5TWCwtzQS5XEwn40BcCrgIeMFWP9CKKIniKXNxoIOnOq4VVlGXhg==
 
-babel-jest@^27.2.1, babel-jest@^27.3.1:
+babel-jest@^27.3.1:
   version "27.3.1"
   resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-27.3.1.tgz#0636a3404c68e07001e434ac4956d82da8a80022"
   integrity sha512-SjIF8hh/ir0peae2D6S6ZKRhUy7q/DnpH7k/V6fT4Bgs/LXXUztOpX4G2tCgq8mLo5HA9mN6NmlFMeYtKmIsTQ==
@@ -3927,7 +3934,7 @@ core-js@^2.4.0, core-js@^2.5.3, core-js@^2.6.5:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
-core-js@^3.0.1, core-js@^3.18.0, core-js@^3.6.5:
+core-js@^3.0.1, core-js@^3.19.0, core-js@^3.6.5:
   version "3.19.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.19.1.tgz#f6f173cae23e73a7d88fa23b6e9da329276c6641"
   integrity sha512-Tnc7E9iKd/b/ff7GFbhwPVzJzPztGrChB8X8GLqoYGdEOG8IpLnK1xPyo3ZoO3HsK6TodJS58VGPOxA+hLHQMg==
@@ -5203,7 +5210,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@^1.0.0, follow-redirects@^1.14.0:
+follow-redirects@^1.0.0, follow-redirects@^1.14.0, follow-redirects@^1.14.4:
   version "1.14.5"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.5.tgz#f09a5848981d3c772b5392309778523f8d85c381"
   integrity sha512-wtphSXy7d4/OR+MvIFbCVBDzZ5520qV8XfPklSN5QtxuMUJZ+b0Wnst1e1lCDocfzuCkHqj8k0FpZqO+UIaKNA==
@@ -5311,7 +5318,7 @@ fs-jetpack@^2.2.2:
     minimatch "^3.0.2"
     rimraf "^2.6.3"
 
-fs-jetpack@^4.1.1:
+fs-jetpack@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/fs-jetpack/-/fs-jetpack-4.2.0.tgz#a3efc00abdb36f0f43ebd44405a4826098399d97"
   integrity sha512-b7kFUlXAA4Q12qENTdU5DCQkf8ojEk4fpaXXu/bqayobwm0EfjjlwBCFqRBM2t8I75s0ifk0ajRqddXy2bAHJg==
@@ -6953,7 +6960,7 @@ jest-worker@^27.3.1:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest@^27.2.1:
+jest@^27.3.1:
   version "27.3.1"
   resolved "https://registry.yarnpkg.com/jest/-/jest-27.3.1.tgz#b5bab64e8f56b6f7e275ba1836898b0d9f1e5c8a"
   integrity sha512-U2AX0AgQGd5EzMsiZpYt8HyZ+nSVIh5ujQ9CPp9EQZJMjXIiSZpJNweZl0swatKRoqHWgGKM3zaSwm4Zaz87ng==
@@ -11471,11 +11478,6 @@ vue-client-only@^2.0.0:
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.1.0.tgz#1a67a47b8ecacfa86d75830173fffee3bf8a4ee3"
   integrity sha512-vKl1skEKn8EK9f8P2ZzhRnuaRHLHrlt1sbRmazlvsx6EiC3A8oWF8YCBrMJzoN+W3OnElwIGbVjsx6/xelY1AA==
 
-vue-demi@^0.11.4:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.11.4.tgz#6101992fe4724cf5634018a16e953f3052e94e2a"
-  integrity sha512-/3xFwzSykLW2HiiLie43a+FFgNOcokbBJ+fzvFXd0r2T8MYohqvphUyDQ8lbAwzQ3Dlcrb1c9ykifGkhSIAk6A==
-
 vue-demi@^0.12.0:
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.12.1.tgz#f7e18efbecffd11ab069d1472d7a06e319b4174c"
@@ -11498,7 +11500,7 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-i18n@^8.25.1:
+vue-i18n@^8.26.5:
   version "8.26.7"
   resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.26.7.tgz#adfd48373449fe31438c48e3b3bd43044dc3a681"
   integrity sha512-7apa5PvRg1YCLoraE3lOgpCG8hJGupLCtywQWedWsgBbvF0TOgFvhitqK9xRH0PBGG1G8aiJz9oklyNDFfDxLg==
@@ -11543,7 +11545,7 @@ vue-no-ssr@^1.1.1:
   resolved "https://registry.yarnpkg.com/vue-no-ssr/-/vue-no-ssr-1.1.1.tgz#875f3be6fb0ae41568a837f3ac1a80eaa137b998"
   integrity sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g==
 
-vue-router@^3.5.1, vue-router@^3.5.2:
+vue-router@^3.5.1, vue-router@^3.5.3:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.5.3.tgz#041048053e336829d05dafacf6a8fb669a2e7999"
   integrity sha512-FUlILrW3DGitS2h+Xaw8aRNvGTwtuaxrRkNSHWTizOfLUie7wuYwezeZ50iflRn8YPV5kxmU2LQuu3nM/b3Zsg==
